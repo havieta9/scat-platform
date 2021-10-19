@@ -1,24 +1,45 @@
-# scat-platform not release
+<img src="doc/banner.png" alt="Scat" style="border-radius: 10%;" />
 
-## Project setup
-```
-yarn install
-```
+## Introduction
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Get Started
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### Platforms
+- [x] Windows 7,8,10
+- [x] Linux
+- [x] macOS
+- [ ] iOS (in progress)
+- [ ] android (soon)
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Security Features
+- [x] localhost-free (:fire:)
+- [x] custom protocol for secure mode
+- [x] Dynamic ahead of Time Compilation (dAoT) with functional tree-shaking
+- [x] functional Address Space Layout Randomization
+- [x] OTP salting of function names and messages at runtime
+- [x] CSP Injection
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Notes
+
+## Development
+
+### Operating systems
+
+
+### Documentation
+
+
+### Testing & Linting
+
+
+## Organization
+
+
+## Contributing
+
+
+## Licenses
+Code: (c) 2021 - 2021 - Smart Contract Audit Token.
+
+MIT or MIT/Apache 2.0 where applicable.
+
