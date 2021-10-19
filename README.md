@@ -1,4 +1,4 @@
-<img src="doc/banner.png" alt="Scat" style="border-radius: 10%;" />
+<img src="doc/github/banner.png" alt="Scat" style="border-radius: 10%;" />
 
 ## Introduction
 
