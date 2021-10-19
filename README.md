@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Smart Contract Audit Platform is a comprehensive tool for auditing smart contracts on the cardano network.
+
 ## Project setup
 ```
 yarn install
@@ -25,14 +27,14 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-#### Platforms
+## Platforms
 - [x] Windows 7,8,10
 - [x] Linux
 - [x] macOS
 - [ ] iOS
 - [ ] android
 
-### Security Features
+## Security Features
 - [x] localhost-free
 - [x] custom protocol for secure mode
 - [x] Dynamic ahead of Time Compilation with functional tree-shaking
