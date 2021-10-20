@@ -28,6 +28,7 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Platforms
+- [x] Web
 - [x] Windows 7,8,10
 - [x] Linux
 - [x] macOS

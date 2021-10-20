@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap");
 
 :root {
   --text-color-primary: #070a0e;
   --text-color-secondary: #86898d;
 
+  --text-size-primary: 1rem;
+  --text-size-secondary: 0.8rem;
+  --text-size-title: 1.25rem;
+
+  --base-color-black-primary: #070a0e;
+  --base-color-black-secondary: #86898d;
+
   --base-color-white-secondary: #fafafa;
+
+  --complementary-color-green: #7fedca;
+  --complementary-color-yellow: #fac292;
+  --complementary-color-blue: rgba(0, 82, 255, 0.1);
+
+  --border-primary: rgba(100, 121, 143, 0.122);
 }
 
 * {
@@ -14,21 +28,24 @@
 
 header {
   width: 100%;
+  min-width: 100%;
   height: 7.3vh;
-  box-shadow: inset 0 -1px 0 rgba(100, 121, 143, 0.122);
+  box-shadow: inset 0 -1px 0 var(--border-primary);
   display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  padding: 0 1rem;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: start;
-  color: rgb(105, 102, 255);
+  color: var(--text-color-secondary);
+  text-rendering: geometricPrecision;
 }
 
 #code-layout {
@@ -36,13 +53,41 @@ header {
   height: 1080px;
 }
 
-.css-scat-flex-wrap {
+#css-green-button {
+  background: var(--complementary-color-green);
+}
+
+#css-yellow-button {
+  background: var(--complementary-color-yellow);
+}
+
+#css-black-button {
+  background: var(--base-color-black-primary);
+}
+
+#css-last-button {
+  bottom: 0;
+}
+
+.css-header-avatar-img {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 2.1vw;
+  height: 2.1vw;
+}
+
+.css-svg-icon {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
+.css-main-flex-wrap {
   display: flex;
   width: 100%;
   height: 100%;
 }
 
-.css-scat-container {
+.css-main-container {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -51,10 +96,14 @@ header {
   height: 100vh;
 }
 
-.css-scat-panel-button {
-  width: inherit;
-  height: 3.75vh;
-  padding: 20px 24px;
+.css-main-panel-button {
+  width: 2.1vw;
+  height: 2.1vw;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
 }
 
 .css-header-logo {
@@ -65,7 +114,7 @@ header {
 
 .css-header-avatar-wrap {
   width: 10vw;
-  height: 40px;
+  height: 2.1vw;
   color: white;
   text-align: center;
   display: flex;
@@ -74,9 +123,9 @@ header {
 
 .css-header-avatar-con {
   background: #212428;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
+  width: 2.1vw;
+  height: 2.1vw;
+  font-size: var(--text-size-primary);
   border-radius: 8px;
 }
 
@@ -93,13 +142,15 @@ header {
 
 .css-header-avatar-desc-r {
   color: var(--text-color-secondary);
-  font-size: 0.8rem;
+  font-size: var(--text-size-secondary);
 }
 
-.css-scat-left-panel {
-  display: block;
+.css-main-left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 3.75vw;
   min-width: 3.75vw;
-  border-right: 1px rgba(0, 0, 0, 0.1) solid;
+  box-shadow: inset -1px 0 0 var(--border-primary);
   height: 100%;
 }
