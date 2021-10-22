@@ -72,9 +72,25 @@
     <div class="css-work-space-subtitle">
       <b>AUDIT</b>
     </div>
+
+    <div class="css-work-space-item">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1024 1024"
+      data-v-066465b6=""
+      width="20"
+    >
+      <path
+        fill="currentColor"
+        d="M320 320V128h384v192h192v192H128V320h192zM128 576h768v320H128V576zm256-256h256.064V192H384v128z"
+      ></path>
+    </svg>
+      <span>My audits</span>
+    </div>
+
   </div>
 </template>
 
 <script src="./WorkSpaceScript.js"></script>
 
-<style src="./WorkSpaceStyle.css"></style>
+<style src="./WorkSpaceStyle.css" scoped></style>

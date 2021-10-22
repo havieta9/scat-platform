@@ -1,0 +1,67 @@
+.css-work-project-wrap {
+  width: 28vw;
+  box-shadow: inset -1px 0 0 var(--border-primary);
+  overflow-y: hidden;
+}
+
+.css-work-project-title {
+  font-weight: bold;
+  color: var(--text-color-primary);
+  font-size: var(--text-size-title);
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+.css-work-project-subtitle {
+  font-weight: bold;
+  color: var(--text-color-secondary);
+  padding: 0 2rem;
+  margin-top: 1rem;
+  box-shadow: inset 0 -1px 0 var(--border-primary);
+  display: flex;
+}
+
+.css-work-project-subtitle span {
+  margin-left: 30px;
+  margin-left: auto;
+}
+
+.css-work-project-avatar-wrap {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.css-work-project-avatar-img {
+  width: 80px;
+  height: 80px;
+  background: rgb(63, 85, 196);
+  border-radius: 8px;
+}
+
+.css-work-project-avatar-wrap img {
+  width: 80px;
+  height: 80px;
+  background: rgb(63, 85, 196);
+  border-radius: 8px;
+}
+
+.css-work-project-name {
+  text-align: center;
+}
+
+.css-work-project-avatar-des {
+  display: block;
+  text-align: center;
+}
+
+.css-work-project-project {
+  display: flex;
+  color: var(--base-color-black-primary);
+}
+
+.css-work-project-tag {
+  display: flex;
+  justify-content: center;
+}

@@ -6,6 +6,7 @@ import WebTool from "./components/web-tool/WebTool"
 import AuditTool from "./components/audit-tool/AuditTool"
 
 import WorkSpace from "./components/work-space/WorkSpace"
+import WorkProject from "./components/work-project/WorkProject"
 
 const app = createApp(App);
 
@@ -14,6 +15,7 @@ app.component("WebTool", WebTool);
 app.component("AuditTool", AuditTool);
 
 app.component("WorkSpace", WorkSpace);
+app.component("WorkProject", WorkProject);
 
 app.mount('#app')
 
