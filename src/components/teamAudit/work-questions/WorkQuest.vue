@@ -1,36 +1,36 @@
 <template>
-  <div class="css-team-dev-wrap">
-    <div class="css-team-dev-page">
+  <div class="css-work-quest-wrap">
+    <div class="css-work-quest-page">
       <div>
-        <span class="css-team-dev-pag">5</span
-        ><span class="css-team-dev-div"> | </span>20
+        <span class="css-work-quest-pag">5</span
+        ><span class="css-work-quest-div"> | </span>20
       </div>
     </div>
-    <div class="css-team-dev-legend">
+    <div class="css-work-quest-legend">
       Can you verify that each member of the development team is a real person?
     </div>
-    <div class="css-team-dev-suggest">Select an option</div>
+    <div class="css-work-quest-suggest">Select an option</div>
 
-    <div class="css-team-dev-answer">
-      <div class="css-team-dev-answer-item">
+    <div class="css-work-quest-answer">
+      <div class="css-work-quest-answer-item">
         <label class="control control--checkbox">
           <input type="checkbox" checked="checked" />
           <span class="control__indicator"></span>
-          <span class="css-team-dev-item-label">Yes</span>
+          <span class="css-work-quest-item-label">Yes</span>
         </label>
       </div>
 
-      <div class="css-team-dev-answer-item">
+      <div class="css-work-quest-answer-item">
         <label class="control control--checkbox">
           <input type="checkbox" checked="checked" />
           <span class="control__indicator"></span>
-          <span class="css-team-dev-item-label">No</span>
+          <span class="css-work-quest-item-label">No</span>
         </label>
       </div>
     </div>
 
-    <div class="css-team-dev-nav">
-      <div class="css-team-dev-arrow" id="left-arrow">
+    <div class="css-work-quest-nav">
+      <div class="css-work-quest-arrow" id="left-arrow">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1024 1024"
@@ -45,7 +45,7 @@
         </svg>
         <span>Back</span>
       </div>
-      <div class="css-team-dev-arrow" id="right-arrow">
+      <div class="css-work-quest-arrow" id="right-arrow">
         <span>Next</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

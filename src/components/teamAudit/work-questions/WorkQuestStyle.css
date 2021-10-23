@@ -1,16 +1,16 @@
-.css-team-dev-wrap {
+.css-work-quest-wrap {
   width: 100%;
   height: 100%;
   background: var(--base-color-white-secondary);
   caret-color: transparent;
 }
 
-.css-team-dev-header {
+.css-work-quest-header {
   width: auto;
   height: 50vh;
 }
 
-.css-team-dev-page {
+.css-work-quest-page {
   justify-content: center;
   display: flex;
   margin-top: 5rem;
@@ -18,7 +18,7 @@
   font-weight: bold;
 }
 
-.css-team-dev-legend {
+.css-work-quest-legend {
   font-weight: bold;
   padding: 0 20rem;
   line-height: 2rem;
@@ -28,19 +28,19 @@
   margin-top: 1rem;
 }
 
-.css-team-dev-pag {
+.css-work-quest-pag {
   color: var(--complementary-color-blue);
 }
 
-.css-team-dev-div {
+.css-work-quest-div {
   margin: 0 0.5rem;
 }
 
-.css-team-dev-answer {
+.css-work-quest-answer {
   padding: 0 20rem;
 }
 
-.css-team-dev-answer-item {
+.css-work-quest-answer-item {
   background: #ffffff;
   height: 6vh;
   border-radius: 8px;
@@ -50,7 +50,7 @@
   margin-top: 1rem;
 }
 
-.css-team-dev-item-label {
+.css-work-quest-item-label {
   margin-left: 50px;
   color: var(--text-color-primary);
   font-weight: bold;
@@ -149,13 +149,13 @@
   background: #7b7b7b;
 }
 
-.css-team-dev-suggest {
+.css-work-quest-suggest {
   padding: 0 20rem;
   text-align: center;
   line-height: 6rem;
 }
 
-.css-team-dev-nav {
+.css-work-quest-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -163,7 +163,7 @@
   margin-top: 6rem;
 }
 
-.css-team-dev-arrow {
+.css-work-quest-arrow {
   display: flex;
   padding: 1rem;
   background: white;
