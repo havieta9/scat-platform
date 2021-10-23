@@ -27,6 +27,7 @@
   border-radius: 8px;
   height: 40px;
   color: var(--text-color-primary);
+  outline: none;
 }
 
 .css-work-space-subtitle {

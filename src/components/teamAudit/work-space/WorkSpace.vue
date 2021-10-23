@@ -74,20 +74,64 @@
     </div>
 
     <div class="css-work-space-item">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1024 1024"
-      data-v-066465b6=""
-      width="20"
-    >
-      <path
-        fill="currentColor"
-        d="M320 320V128h384v192h192v192H128V320h192zM128 576h768v320H128V576zm256-256h256.064V192H384v128z"
-      ></path>
-    </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1024 1024"
+        data-v-066465b6=""
+        width="20"
+      >
+        <path
+          fill="currentColor"
+          d="M320 320V128h384v192h192v192H128V320h192zM128 576h768v320H128V576zm256-256h256.064V192H384v128z"
+        ></path>
+      </svg>
       <span>My audits</span>
     </div>
 
+    <div class="css-work-space-item">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1024 1024"
+        data-v-066465b6=""
+        width="20"
+      >
+        <path
+          fill="currentColor"
+          d="M640 832a128 128 0 0 1-256 0h256zm192-64H134.4a38.4 38.4 0 0 1 0-76.8H192V448c0-154.88 110.08-284.16 256.32-313.6a64 64 0 1 1 127.36 0A320.128 320.128 0 0 1 832 448v243.2h57.6a38.4 38.4 0 0 1 0 76.8H832z"
+        ></path>
+      </svg>
+      <span>Notifications</span>
+    </div>
+
+    <div class="css-work-space-item">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1024 1024"
+        data-v-066465b6=""
+        width="20"
+      >
+        <path
+          fill="currentColor"
+          d="M128 896V128h768v768H128zm291.712-327.296 128 102.4 180.16-201.792-47.744-42.624-139.84 156.608-128-102.4-180.16 201.792 47.744 42.624 139.84-156.608zM816 352a48 48 0 1 0-96 0 48 48 0 0 0 96 0z"
+        ></path>
+      </svg>
+      <span>Rank</span>
+    </div>
+
+    <div class="css-work-space-item">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1024 1024"
+        data-v-066465b6=""
+        width="20"
+      >
+        <path
+          fill="currentColor"
+          d="M688 512a112 112 0 1 0 0 224h208v160H128V352h768v160H688zm32 160h-32a48 48 0 0 1 0-96h32a48 48 0 0 1 0 96zm-80-544 128 160H384l256-160z"
+        ></path>
+      </svg>
+      <span>Rewards</span>
+    </div>
   </div>
 </template>
 

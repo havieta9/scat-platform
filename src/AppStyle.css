@@ -66,8 +66,12 @@ li {
   background: var(--complementary-color-green);
 }
 
-#css-blue-button{
-background: var(--color-soft-blue);
+#css-blue-button {
+  background: rgba(7, 16, 52, 0.1);
+}
+
+#css-selected-button {
+  background: rgba(7, 16, 52, 0.1);
 }
 
 #css-yellow-button {
@@ -79,7 +83,7 @@ background: var(--color-soft-blue);
 }
 
 #css-last-button {
-  margin-top: 35rem;
+  margin-top: 20rem;
 }
 
 .css-header-avatar-img {
@@ -110,9 +114,8 @@ background: var(--color-soft-blue);
 }
 
 .css-main-panel-button {
-  width: 2.1vw;
-  height: 2.1vw;
-  border-radius: 8px;
+  width: inherit;
+  height: 72px;
   margin-top: 1rem;
   cursor: pointer;
   justify-content: center;
@@ -166,6 +169,11 @@ background: var(--color-soft-blue);
   min-width: 3.75vw;
   box-shadow: inset -1px 0 0 var(--border-primary);
   height: 100%;
+  background: linear-gradient(
+    22.58deg,
+    rgba(23, 74, 213, 1) 0%,
+    rgba(48, 99, 238, 1) 100%
+  );
 }
 
 .css-header-search-search {

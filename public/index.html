@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
+
 <body>
+  <style>
+    .titlebar {
+      height: 30px;
+      background: #ffffff;
+      user-select: none;
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      box-shadow: inset 0 -1px 0 var(--border-primary);
+    }
+
+    .titlebar-button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+    }
+
+    .titlebar-button:hover {
+      background: #5bbec3;
+    }
+  </style>
+  <script>
+    import { appWindow } from '@tauri-apps/api/window'
+    document
+      .getElementById('titlebar-minimize')
+      .addEventListener('click', () => appWindow.minimize())
+    document
+      .getElementById('titlebar-maximize')
+      .addEventListener('click', () => appWindow.toggleMaximize())
+    document
+      .getElementById('titlebar-close')
+      .addEventListener('click', () => appWindow.close())
+  </script>
   <div id="app"></div>
 </body>
 
