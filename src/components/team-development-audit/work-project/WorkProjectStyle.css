@@ -1,6 +1,5 @@
 .css-work-project-wrap {
   width: 28vw;
-  box-shadow: inset -1px 0 0 var(--border-primary);
   overflow-y: hidden;
   caret-color: transparent;
 }
