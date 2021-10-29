@@ -2,11 +2,6 @@
 
 ## Table of contents
 1. Introduction
-2. Setup
-	2.1 Linux
-	2.2 Windows
-	2.3 Mac OS
-
 ## Introduction
 
 SCAT DAO is a new audit paradigm that reinvents the way audits are selected, performed, and financed. With SCAT DAO we solve audits inherent problem, the conflict of interest that comes from paying for an audit service. As we have seen with Enron, Tyco, and countless others, the possibility always exists for an auditor to commit fraud to keep their client happy. With SCAT DAO, the token holders choose the projects they care for and want audited. The audit process is standardized, automated, and performed by the community with all services funded by the DAO's treasury. SCAT DAO auditors are incentivized only to provide accurate audit results, regardless of if they are good or bad. No more altering or softening results to appease clients, no more worrying about what the client will think. We are the client, we are the auditor, we are SCAT DAO.
