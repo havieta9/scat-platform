@@ -37,13 +37,13 @@
 
       <div class="css-header-avatar-wrap">
         <div class="css-header-avatar-con">
-          <img class="css-header-avatar-img" src="./assets/perfil.png" alt="" />
+          <img class="css-header-avatar-img" src="./assets/perfil.jpeg" alt="" />
         </div>
         <div class="css-header-avatar-desc">
           <div class="css-header-avatar-desc-n">
-            <b>Andrea Smith</b>
+            <b>Kevin Robin</b>
           </div>
-          <div class="css-header-avatar-desc-r">Queen Auditor</div>
+          <div class="css-header-avatar-desc-r">King auditor</div>
         </div>
       </div>
     </header>

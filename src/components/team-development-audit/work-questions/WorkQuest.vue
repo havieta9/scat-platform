@@ -24,6 +24,7 @@
         </div>
         <span>Back to options</span>
       </div>
+      <div class="css-work-quest-id" v-for="item in currentQuestion" :key="item">#{{ item.id }}</div>
     </div>
 
     <div class="css-work-quest-page">
@@ -54,7 +55,7 @@
       </template>
 
       <div class="work-quest-note">
-        <b>Note: </b>{{ item.note }}. <b>Example</b>
+        <b>Note: </b>{{ item.note }}. <span><b>Example</b></span>
       </div>
       <template v-if="item.answer != null">
         <div class="work-quest-panel">

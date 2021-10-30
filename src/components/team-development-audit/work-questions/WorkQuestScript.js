@@ -7,8 +7,9 @@ export default {
             currentQuestion: [
                 {
                     "number": 1,
-                    "id": "TQ2",
-                    "name": "Tokenomics",
+                    "id": "TD2",
+                    "category": "Team Development",
+                    "name": "Real person",
                     "type": "Open",
                     "note": "To verify each member exists, please check LinkedIn profile for credentials and vouch against other social media outlets such as Facebook, Instagram , Twitter, etc. If the team member is a developer, do they have a github with some of their work submitted? then use google image search with their profile photo to see if it is a stock photo or it is their actual photo. ( running an official background check would be idea but with de multiple countries involved, there likely isn't a system that would work for everywhere)",
                     "example": "- Eric Helms:  https://www.linkedin.com/in/eric-helms-cpa-97866a3b",
