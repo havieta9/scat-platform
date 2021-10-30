@@ -5,17 +5,19 @@
     </div>
     <div class="css-work-project-avatar-wrap">
       <div class="css-work-project-avatar-img">
-        <img src="./adax.png" alt="" />
+        <img src="./sudae.png" alt="" />
       </div>
     </div>
-    <div class="css-work-project-name">
-      <b>Adax</b>
-    </div>
-    <div class="css-work-project-tag">
-      <span>Dex exchange</span>
-    </div>
-    <div class="css-work-project-tag">
-      <span>3728 votes</span>
+    <div class="css-work-project-legend">
+      <div class="css-work-project-name">
+        <b>Sundaeswap</b>
+      </div>
+      <div class="css-work-project-tag">
+        <span>Dex exchange</span>
+      </div>
+      <div class="css-work-project-tag">
+        <span>3728 votes</span>
+      </div>
     </div>
     <div class="css-work-project-subtitle">
       <b>Development Team</b>

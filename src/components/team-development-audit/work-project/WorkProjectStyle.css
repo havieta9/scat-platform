@@ -2,6 +2,7 @@
   width: 28vw;
   overflow-y: hidden;
   caret-color: transparent;
+  box-shadow: inset -1px 0 0 var(--border-primary);
 }
 
 .css-work-project-title {
@@ -28,27 +29,32 @@
 
 .css-work-project-avatar-wrap {
   display: flex;
-  padding: 0 2rem;
   justify-content: center;
   margin-top: 2rem;
 }
 
 .css-work-project-avatar-img {
-  width: 80px;
   height: 80px;
   background: rgb(63, 85, 196);
   border-radius: 8px;
 }
 
 .css-work-project-avatar-wrap img {
-  width: 80px;
   height: 80px;
   background: rgb(63, 85, 196);
   border-radius: 8px;
 }
 
+.css-work-project-legend {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .css-work-project-name {
   text-align: center;
+  color: var(--text-color-primary);
 }
 
 .css-work-project-avatar-des {
