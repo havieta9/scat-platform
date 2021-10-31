@@ -6,7 +6,7 @@
         v-for="item in currentQuestion"
         :key="item"
         :class="{ active: item.answer != null }"
-        @click="changeAnswer(null)"
+        @click="addAnswerQuestion(null)"
       >
         <div>
           <svg
@@ -24,7 +24,13 @@
         </div>
         <span>Back to options</span>
       </div>
-      <div class="css-work-quest-id" v-for="item in currentQuestion" :key="item">#{{ item.id }}</div>
+      <div
+        class="css-work-quest-id"
+        v-for="item in currentQuestion"
+        :key="item"
+      >
+        #{{ item.id }}
+      </div>
     </div>
 
     <div class="css-work-quest-page">
@@ -34,7 +40,7 @@
           v-for="item in currentQuestion"
           :key="item"
           >{{ item.number }}</span
-        ><span class="css-work-quest-div">/</span>{{ numberQuestion }}
+        ><span class="css-work-quest-div">/</span>{{ numberQuestion[1] }}
       </div>
     </div>
 
@@ -105,33 +111,42 @@
         </div>
       </template>
       <template v-if="item.answer != null">
+        <span>{{ item.textarea }}</span>
         <textarea
           id="story"
           name="story"
+          v-model="item.textarea"
           rows="5"
           cols="33"
           placeholder="Edit here"
         ></textarea>
       </template>
 
-      <template v-for="opt in item.options" :key="opt">
+      <template v-for="option in item.options" :key="option">
         <div class="css-work-quest-answer-item" v-if="item.answer === null">
-          <label class="control control--checkbox" @click="changeAnswer(opt)">
+          <label
+            class="control control--checkbox"
+            @click="addAnswerQuestion(option)"
+          >
             <input
               type="checkbox"
               v-model="item.selected"
-              :id="opt"
-              :value="opt"
+              :id="option"
+              :value="option"
             />
             <span class="control__indicator"></span>
-            <span class="css-work-quest-item-label">{{ opt }}</span>
+            <span class="css-work-quest-item-label">{{ option }}</span>
           </label>
         </div>
       </template>
     </div>
 
     <div class="css-work-quest-nav">
-      <div class="css-work-quest-arrow" id="left-arrow">
+      <div
+        class="css-work-quest-arrow"
+        id="left-arrow"
+        @click="numberQuestion[0] > 0 ? backAnswerQuestion() : false"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1024 1024"
@@ -146,7 +161,13 @@
         </svg>
         <span>Back</span>
       </div>
-      <div class="css-work-quest-arrow" id="right-arrow">
+      <div
+        class="css-work-quest-arrow"
+        id="right-arrow"
+        @click="
+          numberQuestion[0] < (numberQuestion[1] - 1) ? nextAnswerQuestion() : false
+        "
+      >
         <span>Next</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

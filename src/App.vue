@@ -35,9 +35,17 @@
         />
       </div>
 
+      <div class="css-header-status">
+        <span>&#8226;</span> Available for audit
+      </div>
+
       <div class="css-header-avatar-wrap">
         <div class="css-header-avatar-con">
-          <img class="css-header-avatar-img" src="./assets/perfil.jpeg" alt="" />
+          <img
+            class="css-header-avatar-img"
+            src="./assets/perfil.jpeg"
+            alt=""
+          />
         </div>
         <div class="css-header-avatar-desc">
           <div class="css-header-avatar-desc-n">

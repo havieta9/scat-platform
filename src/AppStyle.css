@@ -145,6 +145,22 @@ li {
   border-radius: 8px;
 }
 
+.css-header-status {
+  color: rgba(0, 211, 149, 1);
+  font-size: var(--text-size-secondary);
+  background: rgba(0, 211, 149, 0.1);
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.css-header-status span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
 .css-header-avatar-desc {
   height: inherit;
   display: block;

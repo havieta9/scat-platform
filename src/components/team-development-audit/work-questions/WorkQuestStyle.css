@@ -265,6 +265,9 @@ textarea:focus-within {
   align-items: center;
   padding: 0 20rem;
   margin-top: 4rem;
+  position: absolute;
+  bottom: 50px;
+  width: 544px;
 }
 
 .css-work-quest-arrow {
