@@ -70,8 +70,8 @@ li {
   background: rgba(7, 16, 52, 0.1);
 }
 
-#css-selected-button {
-  background: rgba(7, 16, 52, 0.1);
+.css-main-panel-button.active{
+  background: rgba(23, 74, 213, 1);
 }
 
 #css-yellow-button {
@@ -157,8 +157,16 @@ li {
 }
 
 .css-header-status span {
-  font-size: 20px;
   margin-right: 5px;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.css-left-panel-button button {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 .css-header-avatar-desc {
