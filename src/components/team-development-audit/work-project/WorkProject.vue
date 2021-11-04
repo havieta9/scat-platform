@@ -13,7 +13,7 @@
         <b>Sundaeswap</b>
       </div>
       <div class="css-work-project-tag">
-        <span>Dex exchange</span>
+        <span>DEX exchange</span>
       </div>
       <div class="css-work-project-tag">
         <span>3728 votes</span>

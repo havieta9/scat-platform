@@ -2,14 +2,16 @@
   <div class="css-main-container">
     <header>
       <div class="css-left-panel-button">
-        <svg
-          class="css-svg-icon"
-          focusable="false"
-          width="24"
-          viewBox="0 0 24 24"
-        >
-          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-        </svg>
+        <button @click="workspace = !workspace">
+          <svg
+            class="css-svg-icon"
+            focusable="false"
+            width="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </button>
       </div>
       <div class="css-header-logo">
         <b></b>
@@ -57,7 +59,11 @@
     </header>
     <div class="css-main-flex-wrap">
       <div class="css-main-left-panel">
-        <div class="css-main-panel-button">
+        <div
+          class="css-main-panel-button"
+          :class="{ active: currentSection === 'home' }"
+          @click="currentSection = 'home'"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1024 1024"
@@ -71,7 +77,12 @@
           </svg>
         </div>
 
-        <div class="css-main-panel-button" id="css-selected-button">
+        <div
+          class="css-main-panel-button"
+          :class="{ active: currentSection === 'team' }"
+          @click="currentSection = 'team'"
+          id="css-selected-button"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1024 1024"
@@ -85,7 +96,11 @@
           </svg>
         </div>
 
-        <div class="css-main-panel-button">
+        <div
+          class="css-main-panel-button"
+          :class="{ active: currentSection === 'contract' }"
+          @click="currentSection = 'contract'"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1024 1024"
@@ -99,7 +114,11 @@
           </svg>
         </div>
 
-        <div class="css-main-panel-button">
+        <div
+          class="css-main-panel-button"
+          :class="{ active: currentSection === 'deploy' }"
+          @click="currentSection = 'deploy'"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1024 1024"
@@ -129,9 +148,13 @@
           </svg>
         </div>
       </div>
-      <WorkSpace></WorkSpace>
-      <WorkProject></WorkProject>
-      <WorkQuest></WorkQuest>
+      <template v-if="workspace === true">
+        <WorkSpace></WorkSpace>
+      </template>
+      <template v-if="currentSection === 'team'">
+        <WorkProject></WorkProject>
+        <WorkQuest></WorkQuest>
+      </template>
     </div>
   </div>
 </template>

@@ -111,15 +111,16 @@
         </div>
       </template>
       <template v-if="item.answer != null">
-        <span>{{ item.textarea }}</span>
-        <textarea
-          id="story"
-          name="story"
-          v-model="item.textarea"
-          rows="5"
-          cols="33"
-          placeholder="Edit here"
-        ></textarea>
+        <div class="css-work-quest-panel-textarea">
+          <textarea
+            id="story"
+            name="story"
+            v-model="item.textarea"
+            rows="5"
+            cols="33"
+            placeholder="Edit here"
+          ></textarea>
+        </div>
       </template>
 
       <template v-for="option in item.options" :key="option">
@@ -165,7 +166,9 @@
         class="css-work-quest-arrow"
         id="right-arrow"
         @click="
-          numberQuestion[0] < (numberQuestion[1] - 1) ? nextAnswerQuestion() : false
+          numberQuestion[0] < numberQuestion[1] - 1
+            ? nextAnswerQuestion()
+            : false
         "
       >
         <span>Next</span>
