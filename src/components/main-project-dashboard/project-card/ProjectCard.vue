@@ -2,6 +2,7 @@
   <div class="css-project-card-wrap">
     <div class="css-project-card-header">
       <div class="css-project-card-category"><span>Dex</span></div>
+      <span class="css-project-card-date">2021/11/06 22:52:39</span>
       <div class="css-project-card-more">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +32,11 @@
         <img src="./sudae.png" alt="" />
       </div>
     </div>
+    <div class="css-project-card-by">
+      <span>Proposed by</span>
+    </div>
     <div class="css-project-card-foot">
-         <span>add1r...skcl</span>
+      <span>add1r...skcl</span>
       <div class="css-project-card-chat">
         <svg
           xmlns="http://www.w3.org/2000/svg"

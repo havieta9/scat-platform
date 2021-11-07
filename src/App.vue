@@ -157,6 +157,7 @@
       </template>
       <template v-if="currentSection === 'home'">
         <ProjectCard></ProjectCard>
+         <ProjectCard></ProjectCard>
       </template>
     </div>
   </div>
