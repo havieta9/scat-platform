@@ -137,7 +137,7 @@ textarea:focus-within {
   display: flex;
   align-items: center;
   margin-top: 1rem;
-  box-shadow: 1px 1px 1px var(--border-primary);
+  box-shadow: 1px 1px 20px var(--border-primary);
 }
 
 .css-work-quest-item-label {
@@ -279,7 +279,7 @@ textarea:focus-within {
   background: white;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 1px 1px 1px var(--border-primary);
+  box-shadow: 1px 1px 20px var(--border-primary);
 }
 
 #right-arrow {

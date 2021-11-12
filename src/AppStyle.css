@@ -31,6 +31,7 @@ header {
   width: 100%;
   min-width: 100%;
   height: 64px;
+  min-height: 64px;
   box-shadow: inset 0 -1px 0 var(--border-primary);
   display: flex;
   align-content: center;
@@ -70,7 +71,7 @@ li {
   background: rgba(7, 16, 52, 0.1);
 }
 
-.css-main-panel-button.active{
+.css-main-panel-button.active {
   background: rgba(23, 74, 213, 1);
 }
 
@@ -87,7 +88,7 @@ li {
 }
 
 .css-header-avatar-img {
-  border-radius: 8px;
+  border-radius: 50%;
   object-fit: cover;
   width: 2.1vw;
   height: 2.1vw;
@@ -138,11 +139,10 @@ li {
 }
 
 .css-header-avatar-con {
-  background: #212428;
   width: 2.1vw;
   height: 2.1vw;
   font-size: var(--text-size-primary);
-  border-radius: 8px;
+  border-radius: 50%;
 }
 
 .css-header-status {
