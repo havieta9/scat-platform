@@ -156,8 +156,7 @@
         <WorkQuest></WorkQuest>
       </template>
       <template v-if="currentSection === 'home'">
-        <ProjectCard></ProjectCard>
-         <ProjectCard></ProjectCard>
+        <HomeLayout> </HomeLayout>
       </template>
     </div>
   </div>

@@ -1,13 +1,16 @@
 .css-project-card-wrap {
   width: 270px;
-  height: 400px;
+  height: 509px;
+  margin: 0 10px;
   min-width: 270px;
+  max-width: 270px;
+  min-height: 509px;
+  max-height: 509px;
   display: flex;
-  margin-left: 5rem;
-  margin-top: 5rem;
   flex-direction: column;
   border-radius: 8px;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .css-project-card-header {
@@ -39,6 +42,9 @@
 
 .css-project-card-legend {
   padding: 0 1rem;
+  color: var(--text-color-primary);
+  font-size: var(--text-size-secondary);
+  opacity: 0.9;
 }
 
 .css-project-card-avatar-wrap {
@@ -49,7 +55,6 @@
 
 .css-project-card-avatar-con {
   height: 80px;
-  background: rgb(63, 85, 196);
   border-radius: 8px;
 }
 
@@ -70,6 +75,7 @@
   margin-bottom: 1rem;
   padding: 0 1rem;
   justify-content: space-between;
+  font-size: var(--text-size-secondary);
 }
 
 .css-project-card-chat {
@@ -93,5 +99,33 @@
   padding: 0 1rem;
   color: var(--text-color-primary);
   font-weight: bold;
-  font-size: 0.85rem;
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-tags {
+  padding: 0 1rem;
+  display: flex;
+}
+
+.css-project-card-tag {
+  border: 1px solid var(--text-color-secondary);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: var(--text-size-secondary);
+  border-radius: 12px;
+  color: #333;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  text-transform: lowercase;
+}
+
+.css-project-card-tag span {
+  white-space: nowrap;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

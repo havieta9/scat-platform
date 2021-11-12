@@ -22,9 +22,10 @@
     </div>
     <div class="css-project-card-legend">
       <span
-        >A Decentralized Trading Protocol on Cardano. SundaeSwap is a native,
-        scalable decentralized exchange and automated liquidity provision
-        protocol.</span
+        >SundaeSwap is a decentralized exchange protocol for the Cardano
+        Network, enabling native token and ADA exchanges for anyone. With its
+        protocol, you will be able to swap, stake, lend, borrow, and more in a
+        truly decentralized way!</span
       >
     </div>
     <div class="css-project-card-avatar-wrap">
@@ -36,7 +37,7 @@
       <span>Proposed by</span>
     </div>
     <div class="css-project-card-foot">
-      <span>add1r...skcl</span>
+      <span>add1r...skc23lca</span>
       <div class="css-project-card-chat">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +57,25 @@
         <span>4</span>
       </div>
     </div>
+    <div class="css-project-card-tags">
+      <div class="css-project-card-tag">
+        <span>dao</span>
+      </div>
+      <div class="css-project-card-tag">
+        <span>Audit</span>
+      </div>
+       <div class="css-project-card-tag">
+        <span>Ecosystem</span>
+      </div>
+    </div>
+     <div class="css-project-card-tags">
+      <div class="css-project-card-tag">
+        <span>dex</span>
+      </div>
+    </div>
   </div>
 </template>
 
 <script src="./ProjectCardScript.js"></script>
 
-<style  src="./ProjectCardStyle.css"></style>
+<style src="./ProjectCardStyle.css"></style>
