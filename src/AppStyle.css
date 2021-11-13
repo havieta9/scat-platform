@@ -126,8 +126,8 @@ li {
 
 .css-header-logo {
   color: var(--text-color-primary);
-  font-size: 20px;
   font-weight: bold;
+  margin-top: 19px;
 }
 
 .css-header-avatar-wrap {
