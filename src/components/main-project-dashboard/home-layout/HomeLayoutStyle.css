@@ -38,6 +38,7 @@
   height: 100px;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
 }
 
 .css-home-layout-button {
@@ -54,6 +55,10 @@
 
 .css-home-layout-des {
   color: #ffffff;
+}
+
+.css-home-layout-des span {
+  font-size: 2rem;
 }
 
 .css-home-layout-nav {
