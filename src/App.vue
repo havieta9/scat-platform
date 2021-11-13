@@ -14,7 +14,7 @@
         </button>
       </div>
       <div class="css-header-logo">
-        <b></b>
+        <img src="./assets/logo.svg" alt="">
       </div>
 
       <div class="css-header-search-search">
