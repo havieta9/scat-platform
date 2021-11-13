@@ -4,7 +4,7 @@
       <div class="css-home-layout-header">
         <div class="css-home-layout-round">
           <div class="css-home-layout-des">
-            <span>R1</span>
+            <span>R1: Decentralized Audit of DeFi projects</span>
           </div>
           <button class="css-home-layout-button">Submit Proposal</button>
         </div>
