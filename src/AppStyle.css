@@ -19,7 +19,7 @@
   --complementary-color-blue: #3063ee;
 
   --color-soft-blue: rgba(48, 99, 238, 0.1);
-  
+
   --border-primary: rgba(100, 121, 143, 0.122);
 }
 
@@ -115,6 +115,26 @@ li {
   height: 100vh;
 }
 
+.css-header-become {
+  background: var(--complementary-color-blue);
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.css-header-connect {
+  background: transparent;
+  padding: 10px 10px;
+  color: var(--complementary-color-blue);
+  border: 1px solid var(--complementary-color-blue);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: var(--text-size-secondary);
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
 .css-main-panel-button {
   width: inherit;
   height: 72px;
@@ -124,6 +144,9 @@ li {
   display: flex;
 }
 
+.css-header-right-block {
+  display: flex;
+}
 .css-header-logo {
   color: var(--text-color-primary);
   font-weight: bold;

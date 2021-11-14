@@ -4,7 +4,8 @@ export default {
       return {
         data: true,
         workspace: false,
-        currentSection: "home"
+        currentSection: "home",
+        login: false,
       }
     }
   };

@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   color: var(--complementary-color-blue);
+  font-size: var(--text-size-secondary);
 }
 
 .css-project-card-title {
@@ -42,9 +43,7 @@
 
 .css-project-card-legend {
   padding: 0 1rem;
-  color: var(--text-color-primary);
   font-size: var(--text-size-secondary);
-  opacity: 0.9;
 }
 
 .css-project-card-avatar-wrap {

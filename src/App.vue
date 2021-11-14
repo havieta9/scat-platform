@@ -14,7 +14,7 @@
         </button>
       </div>
       <div class="css-header-logo">
-        <img src="./assets/logo.svg" alt="">
+        <img src="./assets/logo.svg" alt="" />
       </div>
 
       <div class="css-header-search-search">
@@ -36,26 +36,36 @@
           placeholder="Search projects"
         />
       </div>
-
-      <div class="css-header-status">
-        <span>&#8226;</span> Available for audit
-      </div>
-
-      <div class="css-header-avatar-wrap">
-        <div class="css-header-avatar-con">
-          <img
-            class="css-header-avatar-img"
-            src="./assets/perfil.jpeg"
-            alt=""
-          />
+      <template v-if="login === true">
+        <div class="css-header-status">
+          <span>&#8226;</span> Available for audit
         </div>
-        <div class="css-header-avatar-desc">
-          <div class="css-header-avatar-desc-n">
-            <b>Kevin Robin</b>
+      </template>
+      <div class="css-header-right-block">
+        <template v-if="login === false">
+          <div class="css-header-become">Become an auditor</div>
+        </template>
+        <template v-if="login === false">
+          <div class="css-header-connect">Connect Wallet</div>
+        </template>
+      </div>
+      <template v-if="login === true">
+        <div class="css-header-avatar-wrap">
+          <div class="css-header-avatar-con">
+            <img
+              class="css-header-avatar-img"
+              src="./assets/perfil.jpeg"
+              alt=""
+            />
           </div>
-          <div class="css-header-avatar-desc-r">King auditor</div>
+          <div class="css-header-avatar-desc">
+            <div class="css-header-avatar-desc-n">
+              <b>Kevin Robin</b>
+            </div>
+            <div class="css-header-avatar-desc-r">King auditor</div>
+          </div>
         </div>
-      </div>
+      </template>
     </header>
     <div class="css-main-flex-wrap">
       <div class="css-main-left-panel">
