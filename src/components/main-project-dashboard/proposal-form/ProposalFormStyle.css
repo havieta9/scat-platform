@@ -1,6 +1,26 @@
+#css-proposal-button-divider {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2.5rem 0;
+}
+
+#css-proposal-submit-button {
+  background: var(--complementary-color-blue);
+  color: var(--base-color-white-primary);
+}
+
 .css-proposal-form-wrap {
   width: 100%;
   height: 100%;
+}
+
+.css-proposal-form-note {
+  border: 1px solid var(--complementary-color-blue);
+  background: var(--color-soft-blue);
+  color: var(--complementary-color-blue);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
 }
 
 .css-proposal-form-swrap {
@@ -25,6 +45,20 @@
   margin-top: 1rem;
 }
 
+.css-proposal-form-required {
+  color: red;
+}
+
+.css-proposal-form-button {
+  padding: 10px 10px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--complementary-color-blue);
+  color: var(--complementary-color-blue);
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 .css-proposal-form-divider input {
   height: 40px;
   width: 98%;
@@ -32,6 +66,7 @@
   margin-top: 10px;
   background: var(--base-color-white-secondary);
   padding: 0 1%;
+  border-radius: 4px;
 }
 
 .css-proposal-form-divider textarea {

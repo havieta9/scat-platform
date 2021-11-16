@@ -17,7 +17,7 @@ textarea:focus-within {
 
 .css-work-quest-panel-textarea{
   border: 1px solid var(--border-primary);
-  border-radius: 8px;
+  border-radius: 4px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   padding: 10px 14px;
@@ -59,7 +59,7 @@ textarea:focus-within {
 .work-quest-panel {
   background: #fff;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 4px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   margin-top: 1rem;
@@ -85,7 +85,7 @@ textarea:focus-within {
   width: 40px;
   height: 40px;
   background: var(--color-soft-blue);
-  border-radius: 8px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
 }
@@ -132,7 +132,7 @@ textarea:focus-within {
 .css-work-quest-answer-item {
   background: #ffffff;
   height: 7vh;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -167,7 +167,7 @@ textarea:focus-within {
   width: 40px;
   height: 40px;
   border: 1px solid var(--border-primary);
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .control--radio .control__indicator {
@@ -249,7 +249,7 @@ textarea:focus-within {
   padding: 1rem;
   margin-top: 1rem;
   background: var(--color-soft-blue);
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--complementary-color-blue);
 }
 
@@ -260,7 +260,7 @@ textarea:focus-within {
 .css-work-quest-id {
   padding: 5px;
   background: var(--color-soft-blue);
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--complementary-color-blue);
 }
 
@@ -277,7 +277,7 @@ textarea:focus-within {
   display: flex;
   padding: 1rem;
   background: white;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
   box-shadow: 1px 1px 20px var(--border-primary);
 }
