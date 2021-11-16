@@ -1,0 +1,43 @@
+.css-proposal-form-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.css-proposal-form-swrap {
+  padding: 0 10rem;
+}
+
+.css-proposal-form-wcon {
+  border: 1px solid var(--border-primary);
+  padding: 0 2rem;
+  border: 1px solid var(--border-primary);
+}
+
+.css-proposal-form-title {
+  color: var(--text-color-primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.css-proposal-form-divider {
+  display: block;
+  margin-top: 1rem;
+}
+
+.css-proposal-form-divider input {
+  height: 40px;
+  width: 98%;
+  border: 1px solid var(--border-primary);
+  margin-top: 10px;
+  background: var(--base-color-white-secondary);
+  padding: 0 1%;
+}
+
+.css-proposal-form-divider textarea {
+  height: 160px;
+  width: 100%;
+  border: 1px solid var(--border-primary);
+  margin-top: 10px;
+  background: var(--base-color-white-secondary);
+}
