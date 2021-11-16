@@ -43,7 +43,7 @@
       </template>
       <div class="css-header-right-block">
         <template v-if="login === false">
-          <div class="css-header-become">Become an auditor</div>
+          <div class="css-header-become">Become an Auditor</div>
         </template>
         <template v-if="login === false">
           <div class="css-header-connect">Connect Wallet</div>
