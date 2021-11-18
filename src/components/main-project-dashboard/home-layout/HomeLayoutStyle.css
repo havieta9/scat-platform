@@ -69,7 +69,7 @@
 }
 
 .css-home-layout-des span {
-  font-size: 2rem;
+  font-size: var(--text-size-fourth);
 }
 
 .css-home-layout-nav {
@@ -82,6 +82,6 @@
 }
 
 .css-home-layout-nav span {
-  margin-right: 1rem;
+  margin-right: 2rem;
   cursor: pointer;
 }

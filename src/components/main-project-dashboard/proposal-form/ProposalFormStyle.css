@@ -1,7 +1,7 @@
 #css-proposal-button-divider {
   display: flex;
   justify-content: flex-end;
-  margin: 2.5rem 0;
+  margin: 4rem 0;
 }
 
 #css-proposal-submit-button {
@@ -35,7 +35,7 @@
 
 .css-proposal-form-title {
   color: var(--text-color-primary);
-  font-size: 1.5rem;
+  font-size: var(--text-size-third);
   font-weight: bold;
   margin-top: 2rem;
 }
@@ -49,6 +49,31 @@
   color: red;
 }
 
+.css-proposal-form-upload {
+  width: 270px;
+  height: 270px;
+  max-height: 270px;
+  min-height: 270px;
+  max-width: 270px;
+  min-width: 270px;
+  border-radius: 8px;
+  border: 1px solid var(--complementary-color-blue);
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+
+.css-proposal-form-upload-w {
+  border: 1px dashed var(--complementary-color-blue);
+  border-radius: 8px;
+  margin: 0 2rem;
+  margin-top: 3rem;
+}
+
+.css-proposal-form-input {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 .css-proposal-form-button {
   padding: 10px 10px;
   background: transparent;
@@ -59,7 +84,7 @@
   cursor: pointer;
 }
 
-.css-proposal-form-divider input {
+.css-proposal-form-text-input {
   height: 40px;
   width: 98%;
   border: 1px solid var(--border-primary);

@@ -1,0 +1,135 @@
+.css-project-description-wrap {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 4px;
+}
+
+.css-project-description-swrap {
+  padding: 0 2rem;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.css-project-description-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.css-project-description-pub {
+  margin-top: 1rem;
+}
+
+.css-project-description-pub-t {
+  color: var(--text-color-primary);
+  font-size: var(--text-size-title);
+  padding: 0 4rem;
+  margin-top: 1rem;
+}
+
+.css-project-description-pub-i {
+  display: flex;
+  padding: 0 4rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.css-project-description-pub-c {
+  height: 40px;
+  width: 98%;
+  border: 1px solid var(--border-primary);
+  background: var(--base-color-white-secondary);
+  padding: 0 1%;
+  border-radius: 4px;
+}
+.css-project-description-pub-p {
+  width: 40px;
+  height: 40px;
+  background: rgba(5, 162, 235, 0.178);
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.css-project-description-pub-l {
+  padding: 0 4rem;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.css-project-description-pub-v {
+  width: 40px;
+  height: 270px;
+}
+
+.css-project-description-pub-vf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--text-size-secondary);
+  color: var(--text-color-primary);
+  font-weight: 700;
+}
+
+.css-project-description-pub-vfa {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.css-project-description-pub-cr {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.css-project-description-pub-crn {
+  font-weight: bold;
+  color: var(--text-color-primary);
+}
+
+.css-project-description-pub-crn span {
+  font-size: var(--text-size-secondary);
+  font-weight: initial;
+  color: var(--text-color-secondary);
+}
+
+.css-project-description-pub-crc {
+  margin-top: 0.5rem;
+}
+
+.css-project-description-head {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.css-project-description-flex {
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+  height: inherit;
+  border: 1px solid var(--border-primary);
+}
+
+.css-project-description-title {
+  padding: 0 4rem;
+  font-size: var(--text-size-third);
+  color: var(--text-color-primary);
+  font-weight: bold;
+}
+
+.css-project-description-des {
+  padding: 0 4rem;
+  margin-top: 1rem;
+  padding-right: 10rem;
+  width: 50%;
+}
+
+.css-project-description-subtitle {
+  color: var(--text-color-primary);
+  padding: 0 4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}

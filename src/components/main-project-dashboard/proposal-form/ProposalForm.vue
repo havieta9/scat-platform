@@ -6,14 +6,12 @@
         <div class="css-proposal-form-note">
           Please fill out the corresponding forms, with the information
           regarding the project that you want to be audited by the cardano
-          community.
-          The boxes marked with a red asterisk
+          community. The boxes marked with a red asterisk
           <span class="css-proposal-form-required">*</span> are required and not
-          optional.
-          Only one form can be filled out at a time, once the proposal is
-          submitted and the chain transaction validated.
-          This form should only be filled out in the active proposal stage.
-          Check above the current stage of the audit round.
+          optional. Only one form can be filled out at a time, once the proposal
+          is submitted and the chain transaction validated. This form should
+          only be filled out in the active proposal stage. Check above the
+          current stage of the audit round.
         </div>
         <div class="css-proposal-form">
           <form action="" method="post">
@@ -25,14 +23,24 @@
                   DEX, Lending.)</span
                 >
               </div>
-              <input id="category" type="text" name="category" />
+              <input
+                class="css-proposal-form-text-input"
+                id="category"
+                type="text"
+                name="category"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
                 <span>Name</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="name" type="text" name="Name" />
+              <input
+                class="css-proposal-form-text-input"
+                id="name"
+                type="text"
+                name="Name"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
@@ -46,21 +54,36 @@
                 <span>Website</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="web" type="text" name="web" />
+              <input
+                class="css-proposal-form-text-input"
+                id="web"
+                type="text"
+                name="web"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
                 <span>Whitepaper</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="whitepaper" type="text" name="whitepaper" />
+              <input
+                class="css-proposal-form-text-input"
+                id="whitepaper"
+                type="text"
+                name="whitepaper"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
                 <span>Token Name</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="web" type="text" name="web" />
+              <input
+                class="css-proposal-form-text-input"
+                id="web"
+                type="text"
+                name="web"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
@@ -70,24 +93,28 @@
                 >
               </div>
               <input
+                class="css-proposal-form-text-input"
                 id="socialnetwork1"
                 type="text"
                 name="socialnetwork1"
                 placeholder="..."
               />
               <input
+                class="css-proposal-form-text-input"
                 id="socialnetwork2"
                 type="text"
                 name="socialnetwork2"
                 placeholder="..."
               />
               <input
+                class="css-proposal-form-text-input"
                 id="socialnetwork3"
                 type="text"
                 name="socialnetwork3"
                 placeholder="..."
               />
               <input
+                class="css-proposal-form-text-input"
                 id="socialnetwork4"
                 type="text"
                 name="socialnetwork4"
@@ -99,11 +126,21 @@
                 <span>Code repository (GitHub, Bitbucket, Gitlab)</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="tags" type="text" name="tags" />
+              <input
+                class="css-proposal-form-text-input"
+                id="tags"
+                type="text"
+                name="tags"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div><span>Catalyst Project Proposal</span></div>
-              <input id="catalyst" type="text" name="catalyst" />
+              <input
+                class="css-proposal-form-text-input"
+                id="catalyst"
+                type="text"
+                name="catalyst"
+              />
             </div>
             <div class="css-proposal-form-divider">
               <div>
@@ -117,7 +154,27 @@
                 <span>Tags</span
                 ><span class="css-proposal-form-required">*</span>
               </div>
-              <input id="tags" type="text" name="tags" />
+              <input
+                class="css-proposal-form-text-input"
+                id="tags"
+                type="text"
+                name="tags"
+              />
+            </div>
+            <div class="css-proposal-form-divider">
+              <span>Project Logo</span
+              ><span class="css-proposal-form-required">*</span>
+              <div class="css-proposal-form-upload">
+                <div class="css-proposal-form-upload-w">
+                  <input
+                    class="css-proposal-form-input"
+                    type="file"
+                    id="proposal-form-input"
+                    name="img"
+                    accept="image/*"
+                  />
+                </div>
+              </div>
             </div>
             <div
               class="css-proposal-form-divider"
