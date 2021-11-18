@@ -17,7 +17,7 @@
         </svg>
       </div>
     </div>
-    <div class="css-project-card-title">
+    <div class="css-project-card-title" @click="showElementDescription()">
       <span>Sundaeswap</span>
     </div>
     <div class="css-project-card-legend">
@@ -64,11 +64,11 @@
       <div class="css-project-card-tag">
         <span>Audit</span>
       </div>
-       <div class="css-project-card-tag">
+      <div class="css-project-card-tag">
         <span>Ecosystem</span>
       </div>
     </div>
-     <div class="css-project-card-tags">
+    <div class="css-project-card-tags">
       <div class="css-project-card-tag">
         <span>dex</span>
       </div>

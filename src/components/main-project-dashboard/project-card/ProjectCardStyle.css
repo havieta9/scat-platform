@@ -37,8 +37,9 @@
   padding: 0 1rem;
   margin-top: 1rem;
   height: 2rem;
-  color: var(--text-color-primary);
+  color: var(--complementary-color-blue);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .css-project-card-legend {
@@ -52,15 +53,10 @@
   margin-top: 1rem;
 }
 
-.css-project-card-avatar-con {
-  height: 80px;
-  border-radius: 4px;
-}
-
 .css-project-card-avatar-wrap img {
   height: 80px;
   background: rgb(63, 85, 196);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .css-project-card-more {

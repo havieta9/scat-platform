@@ -20,20 +20,31 @@
         <span
           v-for="nav in listNavItems"
           :key="nav"
-          @click="changeCurrentNav(nav)"
+          @click="changeCurrentNav(nav) "
           >{{ nav }}</span
         >
       </div>
       <template v-if="currentNav === 'News'">
         <div class="css-home-layout-projects">
-          <ProjectCard> </ProjectCard>
-          <ProjectCard> </ProjectCard>
-          <ProjectCard> </ProjectCard>
-          <ProjectCard> </ProjectCard>
+          <template v-if="showProject === false">
+            <ProjectCard @projectSelectedEvent="changeShowProject">
+            </ProjectCard>
+              <ProjectCard @projectSelectedEvent="changeShowProject">
+            </ProjectCard>
+              <ProjectCard @projectSelectedEvent="changeShowProject">
+            </ProjectCard>
+              <ProjectCard @projectSelectedEvent="changeShowProject">
+            </ProjectCard>
+          </template>
         </div>
       </template>
       <template v-if="currentNav === 'Submit'">
         <ProposalForm> </ProposalForm>
+      </template>
+      <template v-if="showProject === true">
+        <ProjectDescription
+          @closeProjectEvent="changeShowProject"
+        ></ProjectDescription>
       </template>
     </div>
   </div>

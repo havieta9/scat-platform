@@ -9,12 +9,16 @@ export default {
         "Catalyst monitoring",
       ],
       currentNav: "News",
+      showProject: false,
     };
   },
   methods: {
     changeCurrentNav(nav) {
+      this.showProject = false;
       this.currentNav = nav;
-      console.log( this.currentNav)
+    },
+    changeShowProject(bool) {
+      this.showProject = bool;
     },
   },
 };
