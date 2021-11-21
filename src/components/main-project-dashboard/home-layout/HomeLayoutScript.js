@@ -2,13 +2,13 @@ export default {
   data() {
     return {
       listNavItems: [
-        "News",
+        "Proposals",
         "Popular",
         "Tags",
         "History",
         "Catalyst monitoring",
       ],
-      currentNav: "News",
+      currentNav: "Proposals",
       showProject: false,
     };
   },

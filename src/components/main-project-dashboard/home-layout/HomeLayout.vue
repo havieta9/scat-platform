@@ -24,7 +24,7 @@
           >{{ nav }}</span
         >
       </div>
-      <template v-if="currentNav === 'News'">
+      <template v-if="currentNav === 'Proposals'">
         <div class="css-home-layout-projects">
           <template v-if="showProject === false">
             <ProjectCard @projectSelectedEvent="changeShowProject">
