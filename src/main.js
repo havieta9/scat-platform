@@ -5,6 +5,8 @@ import HomeLayout from "./components/main-project-dashboard/home-layout/HomeLayo
 import ProjectCard from "./components/main-project-dashboard/project-card/ProjectCard";
 import ProposalForm from "./components/main-project-dashboard/proposal-form/ProposalForm";
 import ProjectDescription from "./components/main-project-dashboard/project-description/ProjectDescription";
+import PopularTag from "./components/main-project-dashboard/popular-tag/PopularTag";
+import ProposalHistory from "./components/main-project-dashboard/proposal-history/ProposalHistory";
 
 import WorkQuest from "./components/team-development-audit/work-questions/WorkQuest";
 import WorkSpace from "./components/team-development-audit/work-space/WorkSpace";
@@ -20,6 +22,8 @@ app.component("HomeLayout", HomeLayout);
 app.component("ProjectCard", ProjectCard);
 app.component("ProposalForm", ProposalForm);
 app.component("ProjectDescription", ProjectDescription);
+app.component("PopularTag", PopularTag);
+app.component("ProposalHistory", ProposalHistory);
 
 app.component("WorkSpace", WorkSpace);
 app.component("WorkProject", WorkProject);
