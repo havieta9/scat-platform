@@ -112,7 +112,7 @@
   padding-right: 12px;
   font-size: var(--text-size-secondary);
   border-radius: 16px;
-  color: #333;
+  color: var(--text-color-secondary);
   margin-bottom: 12px;
   margin-right: 10px;
   text-transform: lowercase;
@@ -124,3 +124,5 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+

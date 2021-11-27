@@ -83,7 +83,7 @@ li {
 }
 
 .css-main-panel-button.active {
-  background: rgba(23, 74, 213, 1);
+  background:  rgba(23, 74, 213, 1);
 }
 
 #css-yellow-button {
@@ -95,7 +95,7 @@ li {
 }
 
 #css-last-button {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .css-header-avatar-img {
@@ -126,7 +126,7 @@ li {
 }
 
 .css-header-become {
-  background: var(--complementary-color-blue);
+  background: linear-gradient( 22.58deg, rgba(23, 74, 213, 1) 0%, rgba(48, 99, 238, 1) 100% );
   padding: 10px 10px;
   color: #fff;
   border-radius: 4px;

@@ -1,6 +1,6 @@
 <template>
   <div class="css-home-layout-wrap">
-    <div class="css-home-layout-container">
+    <div class="css-home-layout-con">
       <div class="css-home-layout-banner">
         <div class="css-home-layout-header">
           <div class="css-home-layout-round">

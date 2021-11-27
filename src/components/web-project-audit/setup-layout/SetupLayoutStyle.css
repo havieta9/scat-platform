@@ -1,0 +1,53 @@
+.css-setup-layout-wrap {
+  margin-top: 1rem;
+}
+
+.css-setup-layout-con {
+  display: flex;
+  border: 1px solid var(--border-primary);
+  height: 500px;
+  background: var(--base-color-white-primary);
+  justify-content: center;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.css-setup-layout-legend {
+  margin-top: 1rem;
+}
+
+.css-setup-layout-cnt {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.css-setup-layout-rlc {
+  width: 150px;
+  height: inherit;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.css-setup-layout-rlc-b {
+  display: flex;
+  width: 60px;
+  height: inherit;
+  border-radius: 4px;
+  background: var(--complementary-color-blue);
+  justify-content: center;
+  cursor: pointer;
+}
+
+.css-setup-layout-cur {
+  width: 800px;
+  height: inherit;
+}
+
+.css-setup-layout-tit {
+  color: var(--text-color-primary);
+  font-size: var(--text-size-title);
+}

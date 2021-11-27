@@ -1,0 +1,88 @@
+.css-target-layout-wrap {
+  line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.css-target-layout-add {
+  background: linear-gradient(
+    22.58deg,
+    rgba(23, 74, 213, 1) 0%,
+    rgba(48, 99, 238, 1) 100%
+  );
+  border-right: 4px;
+  height: 3rem;
+  padding: 0 4rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.css-target-layout-bc {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.css-target-layout-tw {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-target-layout-cw {
+  display: flex;
+  margin-top: 1rem;
+  border: 1px solid var(--border-primary);
+  border-radius: 4px;
+  height: 6rem;
+  max-height: 6rem;
+  min-height: 6rem;
+  background: #ffffff;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.css-target-layout-new {
+  width: 1300px;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 4px;
+  position: fixed;
+  border: 1px solid var(--border-primary);
+}
+
+.css-target-layout-nt {
+  color: var(--text-color-primary);
+  font-size: var(--text-size-title);
+}
+
+.css-target-layout-cwi {
+  color: var(--text-color-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.css-target-layout-del {
+  color: red;
+}
+
+.css-target-layout-cwi {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-target-layout-cws {
+  display: block;
+}
+
+.css-target-layout-cwst {
+  font-size: var(--text-size-secondary);
+  color: var(--text-color-secondary);
+  line-height: 20px;
+}
+
+.css-target-layout-cwsb{
+  line-height: 30px;
+  font-size: var(--text-size-primary);
+}
