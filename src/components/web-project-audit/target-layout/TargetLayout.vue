@@ -19,6 +19,7 @@
         <div class="css-target-layout-cwf">
           <span>&#127760;</span> wwww.example.com
         </div>
+
         <div class="css-target-layout-cwi">
           <div class="css-target-layout-cws">
             <div class="css-target-layout-cwst">
@@ -27,6 +28,7 @@
             <div class="css-target-layout-cwsb"><span>Swap</span></div>
           </div>
         </div>
+
         <div class="css-target-layout-cwi">
           <div class="css-target-layout-cws">
             <div class="css-target-layout-cwst">
@@ -51,6 +53,16 @@
             </div>
           </div>
         </div>
+
+        <div class="css-target-layout-cwi">
+          <div class="css-target-layout-cws">
+            <div class="css-target-layout-cwst">
+              <span>Report</span>
+            </div>
+            <div class="css-target-layout-cwsb"><span>JSON</span></div>
+          </div>
+        </div>
+
         <div class="css-target-layout-cwi">
           <span class="css-target-layout-del">
             <svg
