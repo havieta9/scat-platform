@@ -1,5 +1,15 @@
+#low-alert {
+  background: #00ca4e;
+}
+#medium-alert {
+  background: #ffbd44;
+}
+
+#high-alert {
+  background: #ff605c;
+}
+
 .css-target-layout-wrap {
-  line-height: 60px;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
@@ -40,7 +50,9 @@
   min-height: 6rem;
   background: #ffffff;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-right: 2rem;
+  overflow: hidden;
 }
 
 .css-target-layout-new {
@@ -50,6 +62,19 @@
   border-radius: 4px;
   position: fixed;
   border: 1px solid var(--border-primary);
+}
+
+.css-target-layout-ltu {
+  height: 98px;
+  position: relative;
+}
+
+.css-target-layout-ltu span {
+  position: absolute;
+  margin-left: 28px;
+  text-align: center;
+  margin-top: 38px;
+  color: var(--complementary-color-blue);
 }
 
 .css-target-layout-nt {
@@ -63,13 +88,17 @@
   flex-direction: column;
 }
 
-.css-target-layout-del {
+.css-target-layout-cwf {
+  display: flex;
+  align-items: center;
+}
+
+.css-target-layout-cwf span {
+  margin-right: 10px;
   color: red;
 }
 
-.css-target-layout-cwi {
-  display: flex;
-  flex-direction: column;
+.css-target-layout-del {
 }
 
 .css-target-layout-cws {
@@ -82,7 +111,22 @@
   line-height: 20px;
 }
 
-.css-target-layout-cwsb{
-  line-height: 30px;
+.css-target-layout-cwsb {
+  line-height: 20px;
   font-size: var(--text-size-primary);
+  display: flex;
+}
+
+.css-target-layout-arl {
+  width: 20px;
+  height: 8px;
+  background: red;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.css-target-layout-cwsb div {
+  display: flex;
+  align-items: center;
+  line-height: 40px;
 }

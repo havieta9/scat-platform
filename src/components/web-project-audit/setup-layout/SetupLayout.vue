@@ -23,6 +23,15 @@
       </div>
     </div>
     <div class="css-setup-layout-cnt">
+      <div class="css-setup-layout-cts">
+        <span
+          class="css-setup-layout-css"
+          :class="{ active : item === setupList[currentAcc] }"
+          v-for="item in setupList"
+          :key="item"
+        >
+        </span>
+      </div>
       <div class="css-setup-layout-rlc">
         <div class="css-setup-layout-rlc-b" @click="backStep">
           <svg
