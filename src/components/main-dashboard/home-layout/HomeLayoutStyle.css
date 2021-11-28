@@ -7,7 +7,7 @@
   overflow-y: scroll;
 }
 
-.css-home-layout-container {
+.css-home-layout-con {
   display: flex;
   flex-direction: column;
   background: var(--base-color-white-primary);

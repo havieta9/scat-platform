@@ -108,6 +108,25 @@
 
         <div
           class="css-main-panel-button"
+          :class="{ active: currentSection === 'web' }"
+          @click="currentSection = 'web'"
+          id="css-selected-button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1024 1024"
+            width="24"
+            data-v-394d1fd8=""
+          >
+            <path
+              fill="#ffffff"
+              d="M288 128h608L736 384l160 256H288v320h-96V64h96v64z"
+            ></path>
+          </svg>
+        </div>
+
+        <div
+          class="css-main-panel-button"
           :class="{ active: currentSection === 'contract' }"
           @click="currentSection = 'contract'"
         >
@@ -166,7 +185,10 @@
         <WorkQuest></WorkQuest>
       </template>
       <template v-if="currentSection === 'home'">
-        <HomeLayout> </HomeLayout>
+        <HomeLayout></HomeLayout>
+      </template>
+      <template v-if="currentSection === 'web'">
+        <WebTool></WebTool>
       </template>
     </div>
   </div>
