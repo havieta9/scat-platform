@@ -15,7 +15,7 @@ textarea:focus-within {
   caret-color: black;
 }
 
-.css-work-quest-panel-textarea{
+.css-work-quest-panel-textarea {
   border: 1px solid var(--border-primary);
   border-radius: 4px;
   border-top-left-radius: 0px;
@@ -279,11 +279,16 @@ textarea:focus-within {
   background: white;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 20%;
   box-shadow: 1px 1px 20px var(--border-primary);
 }
 
 #right-arrow {
-  background: linear-gradient( 22.58deg, rgba(23, 74, 213, 1) 0%, rgba(48, 99, 238, 1) 100% );
+  background: linear-gradient(
+    22.58deg,
+    rgba(23, 74, 213, 1) 0%,
+    rgba(48, 99, 238, 1) 100%
+  );
 }
 
 #right-arrow span {

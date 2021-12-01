@@ -53,6 +53,18 @@
     <ol>
       <li>Subreddit</li>
       <li>Twitter</li>
+      <li>Telegram</li>
+      <li>Discord</li>
+    </ol>
+      <div class="css-work-project-subtitle">
+      <b>ICO Trading Metrics</b>
+      <span>0/10</span>
+    </div>
+    <ol>
+      <li>Initial Offering</li>
+      <li>Market Cap</li>
+      <li>Volume</li>
+      <li>Discord</li>
     </ol>
   </div>
 </template>
