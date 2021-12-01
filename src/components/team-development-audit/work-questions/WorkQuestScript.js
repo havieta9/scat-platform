@@ -75,16 +75,16 @@ export default {
     },
     methods: {
         addCurrentQuestion() {
-            this.currentQuestion.push(this.questionList[this.numberQuestion[0]])
+            this.currentQuestion.push(this.questionList[this.numberQuestion[0]]);
         },
         addAnswerQuestion(option) {
-            this.currentQuestion[0].answer = option
+            this.currentQuestion[0].answer = option;
         },
         nextAnswerQuestion() {
             if (this.currentQuestion != null) {
                 this.answeredQuestion[this.numberQuestion[0]] = (this.currentQuestion.pop());
                 this.numberQuestion[0] += 1;
-                this.addCurrentQuestion()
+                this.addCurrentQuestion();
             }
             else {
                 this.currentQuestion = [];

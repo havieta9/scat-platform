@@ -7,7 +7,7 @@
 }
 
 .css-web-tool-con {
-  width: 1300px;
+  width: 70%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,11 +38,12 @@
 }
 
 .css-web-tool-panel-b {
-  padding: 0 4rem;
   font-weight: 600;
   border-right: 1px solid var(--border-primary);
   cursor: pointer;
   color: var(--base-color-black-primary);
+  text-align: center;
+  width: 100%;
 }
 
 .css-web-tool-panel-b.active {
